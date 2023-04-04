@@ -1,0 +1,41 @@
+body{
+    background-image: url(/images/bg.png);
+
+    
+}
+
+.bgc{
+    /* background-color: rgb(124, 206, 238); */
+    background-image: url(/images/bg.png);
+    height: 100vh;
+    
+}
+
+
+.customcard{
+    background-color:black;
+    box-shadow: rgba(255, 255, 255, 0.84) 0px 5px 15px;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: auto;
+    margin-bottom:15px ;
+    
+}
+
+
+.headingcolor{
+    color: rgb(221, 222, 250);
+}
+ 
+ input[type=text]{
+    /* border-color: black; */
+    color: white;
+} 
+input[type=email]{
+    color: wheat;
+}
+
+
+#map {
+    height: 500px;
+  }

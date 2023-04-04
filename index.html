@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Changa+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Website demo</title>
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navb">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="/images/dp.png" alt="logo" width="50" height="50"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="ac" aria-current="page" href="/index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="ac" aria-current="page" href="/about.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="ac" href="/contact.html">CONTACT</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="ac dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                OTHER
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">FAQ</a></li>
+                <li><a class="dropdown-item" href="#">Services</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Resources</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-dark" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home page -->
+
+    <div class="container mw-100 divh">
+      <div class="row py-4 py-lg-10">
+        <div
+          class="col-lg-4 order-lg-2 d-none d-xl-flex align-items-center justify-content-center justify-content-lg-start ms-lg-n6"
+        >
+          <div
+            style="z-index: 1"
+            class="lc-block col-6 col-lg-10 mb-n3 mb-lg-0"
+          >
+            <img
+              class="img-fluid shadow cardshadow imgradius"
+              src="/images/webdev.jpg"
+              alt="image"
+            />
+          </div>
+          <!-- /lc-block -->
+        </div>
+        <!-- /col -->
+        <div class="col-lg-7 col-md-12 px-1 px-lg-5 m-lg-5 p-4 boxborder">
+          <div class="col-lg-10 ms-lg-5">
+            <div class="lc-block mb-4">
+              <div editable="rich">
+                <h1 class="rfs-30 heading animate-charcter textshadow">
+                  Welcome To My Wsebsite
+                </h1>
+              </div>
+            </div>
+            <div class="lc-block mb-5">
+              <div editable="rich">
+                <p class="pc lead">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                  et metus id ligula malesuada placerat sit
+                </p>
+              </div>
+            </div>
+            <!-- /lc-block -->
+            <div class="">
+              <button
+                class="btnc btnc-1 hover-filled-slide-right"
+                type="submit"
+                onclick="redirect()"
+              >
+                <span>Explore</span>
+              </button>
+            </div>
+            <!-- /lc-block -->
+          </div>
+        </div>
+        <!-- /col -->
+      </div>
+    </div>
+
+    <!-- about section -->
+    <div class="container mw-100 aboutd">
+      <div class="row py-4 py-lg-7">
+        <div class="col d-flex align-items-center justify-content-center">
+          <iframe
+            src="https://embed.lottiefiles.com/animation/75746"
+            height="400"
+            width="400"
+          ></iframe>
+        </div>
+
+        <div
+          class="col m-3 d-flex-col align-items-center justify-content-center boxborder"
+        >
+          <h1 class="pb-3 abouthead">ABOUT US</h1>
+          <p class="pb-5 pc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis
+            maximus est. Cras non consequat neque.Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Natus reprehenderit ipsum laborum
+            dolorum explicabo a id, ducimus exercitationem, iure beatae modi
+            eveniet tenetur suscipit, quisquam ab possimus repellat nesciunt
+            cum. Voluptatibus dolorum blanditiis assumenda omnis accusantium
+            suscipit quia sapiente deleniti quisquam maxime beatae quae,
+          </p>
+          <div class="pb-5">
+            <a href="/about.html" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- service section -->
+    <div class="mw-100 serviced">
+      <div class="container text-center pt-4">
+        <h1 class="abouthead">SERVICES</h1>
+      </div>
+      <div class="row py-lg-7 m-4">
+        <div class="col-md-4 mb-4">
+          <div class="card cardshadow">
+            <img
+              class="card-img-top"
+              src="/images/graphic.jpg"
+              alt="services 1"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Social Media</h5>
+              <p class="card-text text-center">
+                Well organised social media pages
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card cardshadow">
+            <img class="card-img-top" src="/images/app.jpg" alt="service 2" />
+            <div class="card-body">
+              <h5 class="card-title text-center">App Development</h5>
+              <p class="card-text text-center">Full stack applications</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card cardshadow">
+            <img
+              class="card-img-top"
+              src="/images/webdev.jpg"
+              alt="service 3"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Web devlopment</h5>
+              <p class="card-text text-center">Professional level designs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center pb-5">
+        <button
+          class="btnc btnc-1 hover-filled-slide-right"
+          type="submit"
+          onclick="redirectServices()"
+        >
+          <span>MORE</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="lsitstyling">
+              <h5 class="px-3">Follow Us</h5>
+              <ul class="list-unstyled lsitstyling">
+                <li class="px-1">
+                  <a class="" href="#!" role="button"
+                    ><img src="/images/facebook.png" alt=""
+                  /></a>
+                </li>
+
+                <!-- Twitter -->
+                <li class="px-1">
+                  <a class="" href="#!" role="button"
+                    ><img src="/images/twitter.png" alt=""
+                  /></a>
+                </li>
+
+                <!-- Instagram -->
+                <li class="px-1">
+                  <a class="" href="#!" role="button"
+                    ><img src="/images/insta.png" alt=""
+                  /></a>
+                </li>
+
+                <!-- Linkedin -->
+                <li class="px-1">
+                  <a class="" href="#!" role="button"
+                    ><img src="/images/linkedin.png" alt=""
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 text-md-right">
+            <p class="mb-0">© 2023 hritik All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+      <button id="back-to-top-btn" title="Back to top">
+        <i class="fas fa-chevron-up"></i>
+      </button>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
